@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+    border-style: double;
+    border-color: lightgoldenrodyellow;
+    background-color: slategray;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+    background-color: lightslategray;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+
