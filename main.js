@@ -1,3 +1,10 @@
+//ok. Second iteration of this project
+
+//re-structure all content from html as info in arrays, with three different classes and for sorting; projects, bio, and tehcnologies
+
+//in
+
+
 const projects = [
     {
     title: "Cool Project", 
