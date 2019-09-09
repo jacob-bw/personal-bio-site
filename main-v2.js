@@ -96,3 +96,20 @@ const technologies = [
         type: 'tool',
     }
 ];
+
+const printToDom = (toPrint, divId) => {
+    document.getElementById(divId).innerHTML = toPrint
+};
+
+const contactCard =
+<div class="card">
+  <div class="card-header">
+    Contact
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Contact Info</h5>
+    <p class="card-text"><a href="mailto: wittenberg.jacob@gmail.com">Email: wittenberg.jacob@gmail.com</a></p>
+    <p class="card-text"><a href="https://github.com/jacob-bw">github</a></p>
+    <p class="card-text"><a href="not-yet">linkdin</a></p>
+  </div>
+</div>
