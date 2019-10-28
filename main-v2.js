@@ -101,15 +101,40 @@ const printToDom = (toPrint, divId) => {
     document.getElementById(divId).innerHTML = toPrint
 };
 
-const contactCard =
-<div class="card">
-  <div class="card-header">
-    Contact
-  </div>
-  <div class="card-body">
-    <h5 class="card-title">Contact Info</h5>
-    <p class="card-text"><a href="mailto: wittenberg.jacob@gmail.com">Email: wittenberg.jacob@gmail.com</a></p>
-    <p class="card-text"><a href="https://github.com/jacob-bw">github</a></p>
-    <p class="card-text"><a href="not-yet">linkdin</a></p>
-  </div>
-</div>
+//    const printExample = (exampleArray) => {
+//    let domString = ''
+//    for (let i = 0; i < exampleArray.length; i++) {
+//        const pieCard = exampleArray[i]
+//        domString += ` 
+//        <div class="card">
+//            <div class="card-header">
+//            Title
+//            </div>
+//            <div class="card-body">
+//                <h5 class="card-title">Contact Info</h5>
+//                <p class="card-text">${''}</p>/
+//                <p class="card-text">${''}</p>
+//                <p class="card-text">${''}</p>
+//            </div>
+//        `
+//    }
+//    printToDom(domString, 'pie-zone')
+// }
+
+
+
+const contactCard = (contact) => {
+
+        <div class="card">
+        <div class="card-header">
+            Contact
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Contact Info</h5>
+            <p class="card-text"><a href="mailto: wittenberg.jacob@gmail.com">Email: wittenberg.jacob@gmail.com</a></p>
+            <p class="card-text"><a href="https://github.com/jacob-bw">github</a></p>
+            <p class="card-text"><a href="not-yet">linkdin</a></p>
+        </div>
+        </div>
+
+}
