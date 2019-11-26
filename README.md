@@ -3,9 +3,6 @@
 ## Description
 > a single-page-app that serves as a brief professional overview of projects completed and tools learned
 
-## Screenshots
-![screenshot of app]()
-
 # Instructions on How to Run
 * clone down this project
 * install http-server from npm
