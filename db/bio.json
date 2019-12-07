@@ -1,7 +1,14 @@
 {
-  "biography": {
-    "whatBefore": "",
-    "whatDoYouLike": "",
-    ""
+  "bio1": {
+    "questionPrompt": "What was your background before web development?",
+    "questionAnswer": ""
+  },
+  "bio2": {
+    "questionPrompt": "Why do you want to go into development?",
+    "questionAnswer": ""
+  },
+  "bio3": {
+    "questionPrompt": "What do you love about web development?",
+    "questionAnswer": ""
   }
 }

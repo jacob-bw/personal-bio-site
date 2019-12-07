@@ -1,0 +1,47 @@
+{
+  "tech1": {
+    "techName": "HTML",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech2": {
+    "techName": "CSS/SCSS",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech3": {
+    "techName": "Javascript",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech4": {
+    "techName": "Bootstrap",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech5": {
+    "techName": "Flexbox",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech6": {
+    "techName": "Jquery",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech7": {
+    "techName": "Jquery",
+    "techThumbnail": "",
+    "techLink":""
+    },
+  "tech8": {
+    "techName": "firebase",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech9": {
+    "techName": "axios",
+    "techThumbnail": "",
+    "techLink":""
+  }
+}
