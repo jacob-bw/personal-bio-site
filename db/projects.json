@@ -3,18 +3,21 @@
     "projectName": "La Baguette",
     "projectSummary": "A multi-purpose app for managing an upscale restaurant",
     "projectUrl": "https://labaguette-932fa.web.app/",
-    "projectGitHub": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant"
+    "projectGitHub": "https://github.com/nss-evening-cohort-10/nutshell-michelin-restaurant",
+    "projectImgUrl": "https://i.imgur.com/SvDUIPw.jpg"
   },
   "project2": {
     "projectName": "Dinosaur Zoo",
     "projectSummary": "An application for managing the logistics of a dinosaur themepark",
     "projectUrl": "https://jurassic-world-a9907.firebaseapp.com/",
-    "projectGitHub": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world"
+    "projectGitHub": "https://github.com/nss-evening-cohort-10/nutshell-jurassic-world",
+    "projectImgUrl": "https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/md-readmeImg/images/readmeImg/homepage.PNG"
   },
   "project3": {
     "projectName": "Digital Pet",
     "projectSummary": "A single page app that lets you interact with and care for an imaginary creature",
     "projectUrl": "",
-    "projectGitHub": "https://github.com/jacob-bw/Tamagotchi"
+    "projectGitHub": "https://github.com/jacob-bw/Tamagotchi",
+    "projectImgUrl": "https://raw.githubusercontent.com/jacob-bw/Tamagotchi/master/src/images/screenshots/tamagotchi-screenshot.png"
   }
 }

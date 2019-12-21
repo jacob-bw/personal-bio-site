@@ -30,7 +30,7 @@
     "techLink":""
   },
   "tech7": {
-    "techName": "Jquery",
+    "techName": "React",
     "techThumbnail": "",
     "techLink":""
     },
@@ -40,6 +40,11 @@
     "techLink":""
   },
   "tech9": {
+    "techName": "REST API",
+    "techThumbnail": "",
+    "techLink":""
+  },
+  "tech10": {
     "techName": "axios",
     "techThumbnail": "",
     "techLink":""

@@ -1,14 +1,17 @@
 {
   "bio1": {
     "questionPrompt": "What was your background before web development?",
-    "questionAnswer": ""
+    "questionAnswer": "I'm a Nashville Native who worked in restaurants for the better part of a decade. I left the hospitality industry in Fall of 2017 and have been working on Eventbrite's Customer Experience team since then.",
+    "seeMoreDetail": "Since April of 2019, I have been working with our External Developer Support team, assisting third party developers who are creating integrations using Eventbrite's API."
   },
   "bio2": {
     "questionPrompt": "Why do you want to go into development?",
-    "questionAnswer": ""
+    "questionAnswer": "Web development is an opportunity for me to use my love of puzzles and problem solving in creative real-world applications.",
+    "seeMoreDetail": "After my wife and I had our first child, we realized that the hospitality industry was not conducive to the family life we wanted. I want to be a web developer because it simultaneously provides me with intrisic opportunities for stretching and growing, as well as providing the opportunity for life that I want for me and my family."
   },
   "bio3": {
     "questionPrompt": "What do you love about web development?",
-    "questionAnswer": ""
+    "questionAnswer": "I have loved learning to code because I enjoy all the different ways there are to correctly solve the same problem and the endless opportunities to learn new things.",
+    "seeMoreDetail": "Coding is just cyberpunk legos. I would love to transition into a career where I can build tools and solve problems for a living. Getting to exercise creativity in problem solving is my absolute shit and I *clap* want *clap* to *clap* do that shit for real *clap clap clap clap clap*"
   }
 }
