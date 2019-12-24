@@ -1,6 +1,9 @@
-#navbarNav {
-  justify-content: flex-end;
-  .btn {
-    margin: 3px;
+.navbar {
+  background-color: lightgray;
+  #navbarNav {
+    justify-content: flex-end;
+    .btn {
+      margin: 3px;
+    }
   }
 }
