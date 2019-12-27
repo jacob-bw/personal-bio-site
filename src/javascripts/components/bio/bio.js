@@ -11,14 +11,8 @@ const singleBioCard = (bioInfo) => {
       <div class="card-body" id=${bioInfo.id}>
         <h4 class="card-title">${bioInfo.questionPrompt}</h4>
         <div class="card-text">${bioInfo.questionAnswer}</div>
-        <div class="card-header" id="headingOne">
-        <h5 class="mb-0">
-        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">See More</button>
-        </h5>
-        </div>
-        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body">${bioInfo.seeMoreDetail}</div>
-        </div>
+        <button class="btn btn-outline-primary" id="showMoreButton">Show More</button>
+        <div class="card-body moreInfo hide">${bioInfo.seeMoreDetail}</div>
       </div>
     </div>
   `;
@@ -40,4 +34,10 @@ const printMyBio = () => {
     .catch((errorFromPrintMyBio) => console.error(errorFromPrintMyBio));
 };
 
-export default { printMyBio };
+const showMoreClickEvent = (e) => {
+  const target = e.target.id;
+  if (target === '#showMoreButton') {
+    $('#moreInfo').removeClass('hide');
+  }
+};
+export default { printMyBio, showMoreClickEvent };
