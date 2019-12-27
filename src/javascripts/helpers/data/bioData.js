@@ -18,4 +18,5 @@ const getPersonalInfo = () => new Promise((resolve, reject) => {
     .catch((errorFromGetPersonalInfo) => reject(errorFromGetPersonalInfo));
 });
 
+
 export default { getPersonalInfo };
