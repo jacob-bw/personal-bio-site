@@ -34,6 +34,8 @@ const printMyBio = () => {
     .catch((errorFromPrintMyBio) => console.error(errorFromPrintMyBio));
 };
 
+// get click event working before merge, ya dingus
+
 const showMoreClickEvent = (e) => {
   const target = e.target.id;
   if (target === '#showMoreButton') {
