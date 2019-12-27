@@ -5,7 +5,7 @@ import bio from './components/bio/bio';
 
 const init = () => {
   myNavbar.myNavbar();
-  bio.myBio();
+  bio.printMyBio();
 };
 
 init();
