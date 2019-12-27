@@ -2,6 +2,8 @@ import utilities from '../../helpers/utilities';
 
 import personalInfo from '../../helpers/data/bioData';
 
+import './bio.scss';
+
 const singleBioCard = (bioInfo) => {
   let domString = '';
   domString += `
@@ -28,10 +30,11 @@ const printMyBio = () => {
     .then((myBio) => {
       let domString = '';
       domString += '<div class="container">';
+      domString += '<div class="col md-4">';
       myBio.forEach((bio) => {
         domString += singleBioCard(bio);
       });
-      domString += '</div>';
+      domString += '</div></div>';
       utilities.printToDom(domString, 'bioPage');
     })
     .catch((errorFromPrintMyBio) => console.error(errorFromPrintMyBio));
