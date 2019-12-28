@@ -37,9 +37,10 @@ const printMyBio = () => {
 // get click event working before merge, ya dingus
 
 const showMoreClickEvent = (e) => {
-  const target = e.target.id;
+  const target = e.target.class;
   if (target === '#showMoreButton') {
     $('#moreInfo').removeClass('hide');
   }
 };
+
 export default { printMyBio, showMoreClickEvent };
