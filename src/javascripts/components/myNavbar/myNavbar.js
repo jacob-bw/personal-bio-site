@@ -14,11 +14,10 @@ const myNavbar = () => {
     <span class="navbar-toggler-icon"></span>
   </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-    <button class="btn btn-outline-success" id="contactButton">Contact</button>
+      <button class="btn btn-outline-success" id="contactButton">Contact</button>
       <button class="btn btn-dark" id="bioButton">Bio</button>
       <button class="btn btn-dark" id="">Projects</button>
       <button class="btn btn-dark" id="">Technologies</button>
-      </ul>
     </div>
   </nav>`;
 
