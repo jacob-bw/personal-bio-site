@@ -18,15 +18,13 @@ const singleBioCard = (bioInfo) => {
       </div>
     </div>
   `;
-  utilities.printToDom(domString, 'bioCol');
-  // eslint-disable-next-line no-use-before-define
-  $('body').on('click', '#showMoreButton', showMoreClickEvent);
+  return domString;
 };
 
 const printMyBio = () => {
   $('.homePage').addClass('hide');
-  $('.myBioPage').removeClass('hide');
   $('.myTechPage').addClass('hide');
+  $('.myBioPage').removeClass('hide');
   $('.myProjectsPage').addClass('hide');
   $('.myContactInfo').addClass('hide');
 
@@ -34,11 +32,10 @@ const printMyBio = () => {
     .then((myBio) => {
       let domString = '';
       domString += '<div class="container">';
-      domString += '<div class="col md-4" id="bioCol">';
       myBio.forEach((bio) => {
         domString += singleBioCard(bio);
       });
-      domString += '</div></div>';
+      domString += '</div>';
       utilities.printToDom(domString, 'bioPage');
     })
     .catch((errorFromPrintMyBio) => console.error(errorFromPrintMyBio));

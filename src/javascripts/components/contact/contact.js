@@ -7,28 +7,23 @@ const contactCard = () => {
     <div class="card-body" id="contactCard">
       <h4 class="card-title">Contact</h4>
       <h5 class="card-title"><a href="https://www.linkedin.com/in/jacob-best-wittenberg/ "target="_blank">connect with me on linkedin</a></h5>
-      <h5 class="card-title"><a href="mailto:wittenberg.jacob@gmail.com" "target="_blank">email me directly</a></h5>
+      <h5 class="card-title"><a href="mailto:wittenberg.jacob@gmail.com" "target="_blank">email me</a></h5>
       <h5 class="card-title"><a href="https://github.com/jacob-bw" "target="_blank">check out my code on github</a></h5>
+      <button class="btn-outline-primary"><a href="https://drive.google.com/file/d/0B3Unyl1m2PyIMmV2ZXlWZEtUWVd5TnFqN3d4bWxyOGRGNVc0/view" "target="_blank">view my resume</a>
       <button class="btn-dark" id="closeContactButton">get outta here</button>
     </div>
   </div>`;
   utilities.printToDom(domString, 'contactCardZone');
 };
 
-// const closeBoard = () => {
-//   const { uid } = firebase.auth().currentUser;
-//   $(document).click((e) => {
-//     const buttonId = e.target.id;
-//     if (buttonId === 'closeBoardButton') {
-//       // eslint-disable-next-line no-undef
-//       showAllBoards(uid);
-//     }
-//   });
-// };
-
-const openContactCard = (e) => {
-  const buttonId = e.target.id;
-  contactCard(buttonId);
+const contactClick = (e) => {
+  const target = e.target.id;
+  if (target === 'navbarButton') {
+    $('.contactCard').removeClass('hide');
+  } else if (target === 'closeContactButton') {
+    $('.contactCard').addClass('hide');
+  }
 };
 
-export default { openContactCard };
+
+export default { contactCard, contactClick };
