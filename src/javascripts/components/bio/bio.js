@@ -24,6 +24,12 @@ const singleBioCard = (bioInfo) => {
 };
 
 const printMyBio = () => {
+  $('.homePage').addClass('hide');
+  $('.myBioPage').removeClass('hide');
+  $('.myTechPage').addClass('hide');
+  $('.myProjectsPage').addClass('hide');
+  $('.myContactInfo').addClass('hide');
+
   personalInfo.getPersonalInfo()
     .then((myBio) => {
       let domString = '';

@@ -7,11 +7,11 @@ import homepage from './components/homepage/homepage';
 
 const init = () => {
   myNavbar.myNavbar();
+  homepage.buildHomePage();
   bio.printMyBio();
   // bio.showMoreClickEvent();
   // contact.contactCard();
   // contact.contactClick();
-  homepage.buildHomePage();
 };
 
 init();
