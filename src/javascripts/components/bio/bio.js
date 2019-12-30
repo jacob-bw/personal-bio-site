@@ -46,7 +46,7 @@ const printMyBio = () => {
 const showMoreClickEvent = (e) => {
   const clicktarget = e.target.id;
   if (clicktarget === '#showMoreButton') {
-    $('.moreInfo').removeClass('hide');
+    $('.moreInfo').on('click').toggleClass('hide');
   }
 };
 

@@ -1,4 +1,5 @@
 import utilities from '../../helpers/utilities';
+import bio from '../bio/bio';
 
 import './myNavbar.scss';
 
@@ -11,7 +12,7 @@ const myNavbar = () => {
   </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <button class="btn btn-outline-success contactButtonClass" id="contactButton">Contact</button>
-      <button class="btn btn-dark" id="bioButton">Bio</button>
+      <button class="btn btn-dark bioButton" id="bioButton">Bio</button>
       <button class="btn btn-dark" id="">Projects</button>
       <button class="btn btn-dark" id="">Technologies</button>
     </div>
@@ -21,4 +22,8 @@ const myNavbar = () => {
   utilities.printToDom(domString, 'myNavbar');
 };
 
-export default { myNavbar };
+const navButtons = () => {
+  $('.bioButton').on('click', '#bioButton', bio.printMyBio);
+};
+
+export default { myNavbar, navButtons };

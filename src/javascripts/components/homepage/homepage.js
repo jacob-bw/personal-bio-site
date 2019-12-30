@@ -55,6 +55,11 @@ const homeCards = (arr) => {
 };
 
 const buildHomePage = () => {
+  $('.homePage').removeClass('hide');
+  $('.myTechPage').addClass('hide');
+  $('.myBioPage').addClass('hide');
+  $('.myProjectsPage').addClass('hide');
+  $('.myContactInfo').addClass('hide');
   homeCards(landingPageArray);
 };
 
