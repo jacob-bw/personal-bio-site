@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 import utilities from '../../helpers/utilities';
 
 import personalInfo from '../../helpers/data/bioData';
@@ -16,7 +18,9 @@ const singleBioCard = (bioInfo) => {
       </div>
     </div>
   `;
-  return domString;
+  utilities.printToDom(domString, 'bioCol');
+  // eslint-disable-next-line no-use-before-define
+  $('body').on('click', '#showMoreButton', showMoreClickEvent);
 };
 
 const printMyBio = () => {
@@ -24,7 +28,7 @@ const printMyBio = () => {
     .then((myBio) => {
       let domString = '';
       domString += '<div class="container">';
-      domString += '<div class="col md-4">';
+      domString += '<div class="col md-4" id="bioCol">';
       myBio.forEach((bio) => {
         domString += singleBioCard(bio);
       });
@@ -37,9 +41,9 @@ const printMyBio = () => {
 // get click event working before merge, ya dingus
 
 const showMoreClickEvent = (e) => {
-  const target = e.target.id;
-  if (target === '#showMoreButton') {
-    $('#moreInfo').removeClass('hide');
+  const clicktarget = e.target.id;
+  if (clicktarget === '#showMoreButton') {
+    $('.moreInfo').removeClass('hide');
   }
 };
 

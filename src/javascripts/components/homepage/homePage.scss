@@ -1,0 +1,33 @@
+
+#homePage {
+  margin: 25px 0 0 0;
+  flex-flow: row wrap;
+  pointer-events: auto;
+
+.single-card {
+  min-width: 200px;
+  max-width: 400px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 10px;
+}
+.homeCard-title {
+  text-transform: uppercase;
+}
+.crop-image {
+  width: 400px;
+  height: 200px;
+}
+
+.homepage-image {
+  overflow: hidden;
+  width: auto;
+  height: 100%;
+  text-align: center;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+ }
+}

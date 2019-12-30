@@ -6,20 +6,22 @@ import bio from '../bio/bio';
 // import contact from '../contact/contact';
 // import navbar from '../myNavbar/myNavbar';
 
+import './homePage.scss';
+
 const landingPageArray = [
   {
     name: 'bio',
     // eslint-disable-next-line max-len
     description: 'I\'m a Nashville native who worked in restaurants most of my adult life. Moving into web dev has been an exciting journey that\'s allowed me to play to my natural strengths while learning new skills and ways to problem-solve.',
-    imageUrl: '',
+    imageUrl: 'https://i.imgur.com/T3KpDY1.jpg?',
   }, {
     name: 'projects',
     description: 'These are some projects that I\'ve done and am proud to share.',
-    imageUrl: '',
+    imageUrl: 'https://raw.githubusercontent.com/nss-evening-cohort-10/nutshell-jurassic-world/md-readmeImg/images/readmeImg/homepage.PNG',
   }, {
     name: 'technologies',
     description: 'a brief summary of technologies and tools that I\'m versed in.',
-    imageUrl: '',
+    imageUrl: 'https://i.imgur.com/kfCdyIY.png',
   },
 ];
 
@@ -48,7 +50,7 @@ const homeCards = (arr) => {
     domString += '</div>';
   });
   domString += '</div>';
-  utilities.printToDom(domString, '#homePage');
+  utilities.printToDom(domString, 'homePage');
   $('.homeCards').on('click', '.homepage-image', imageClickEvent);
 };
 
