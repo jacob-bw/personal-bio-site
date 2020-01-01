@@ -1,13 +1,46 @@
-.project-footer{
-  text-align: center;
-  padding: 20px;
-  font-size: 25px;
-  margin: 5px;
-  color: #000;
-  position: fixed bottom;
-  list-style: none;
-  i{
-      color:black;
-      margin: 20px;
+.project-container {
+  margin: 25px 0 0 0;
+  flex-flow: row wrap;
+  pointer-events: auto;
+  
+  .project-card {
+  border-style: solid;
+  min-width: 200px;
+  max-width: 500px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 10px;
   }
+  
+  
+  .crop-image {
+  width: auto;
+  height: 200px;
+  }
+
+  .card-img-top {
+  overflow: hidden;
+  height: 100%;
+  text-align: auto;
+  opacity: 0.8;
+  &:hover {
+    opacity: 1;
+    cursor: pointer;
+    }
+  }
+
+  .project-footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin: 5px;
+    color: #000;
+    position: fixed bottom;
+    list-style: none;
+    i{
+        color:black;
+        margin: 20px;
+    }
+  }
+  
 }
