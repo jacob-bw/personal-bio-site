@@ -6,6 +6,15 @@ import personalInfo from '../../helpers/data/bioData';
 
 import './bio.scss';
 
+const showMore = (e) => {
+  const target = e.target.id.split('more-')[1];
+  // eslint-disable-next-line no-undef
+  if (target === `${bioInfo.id}`) {
+  // eslint-disable-next-line no-undef
+    $(`#more-${bioInfo.id}`).toggleClass('hideMore');
+  }
+};
+
 const singleBioCard = (bioInfo) => {
   let domString = '';
   domString += `
@@ -13,8 +22,8 @@ const singleBioCard = (bioInfo) => {
       <div class="card-body" id=${bioInfo.id}>
         <h4 class="card-title">${bioInfo.questionPrompt}</h4>
         <div class="card-text">${bioInfo.questionAnswer}</div>
-        <button class="btn btn-outline-primary" id="showMoreButton">Show More</button>
-        <div class="card-body moreInfo hide">${bioInfo.seeMoreDetail}</div>
+        <button class="btn btn-outline-primary" id="showMoreButton more-${bioInfo.id}">more details</button>
+        <div class="card-body moreInfo hideMore" id="more-${bioInfo.id}">${bioInfo.seeMoreDetail}</div>
       </div>
     </div>
   `;
@@ -37,17 +46,10 @@ const printMyBio = () => {
       });
       domString += '</div>';
       utilities.printToDom(domString, 'bioPage');
+      // eslint-disable-next-line no-undef
+      $('.card-body').on('click', `#more-${bioInfo.id}`, showMore);
     })
     .catch((errorFromPrintMyBio) => console.error(errorFromPrintMyBio));
 };
 
-// get click event working before merge, ya dingus
-
-const showMoreClickEvent = (e) => {
-  const clicktarget = e.target.id;
-  if (clicktarget === '#showMoreButton') {
-    $('.moreInfo').on('click').toggleClass('hide');
-  }
-};
-
-export default { printMyBio, showMoreClickEvent };
+export default { printMyBio };
