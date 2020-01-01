@@ -1,29 +1,27 @@
 import $ from 'jquery';
 
-// import utilities from '../../helpers/utilities';
-
-import projData from '../../helpers/data/projectsData';
+import pd from '../../helpers/data/projectsData';
 import utilities from '../../helpers/utilities';
 
 import './projects.scss';
 
-const projectCard = () => {
+const projectCard = (projectData) => {
   let domString = '';
   domString += `
   <div class="project-card col-md-3">
     <div class="card-body">
       <div class="border-top my-3 hide"></div>
       <div class="view overlay">
-      <img class="card-img-top" src="${projData.projectImgUrl}" alt="Card image cap">
+      <img class="card-img-top" src="${projectData.projectImgUrl}" alt="Card image cap">
       <a href="#!">
         <div class="mask rgba-white-slight"></div>
       </a>
     </div>
-        <h4 class="card-title" id="${projData.id}">${projData.projectName}</h4>
-        <h6 id="">${projData.projectSummary}</h6>
+        <h4 class="card-title" id="${projectData.id}">${projectData.projectName}</h4>
+        <h6 id="">${projectData.projectSummary}</h6>
         <div class="project-footer d-flex justify-content-between">
-        <li id="icons"><a href="${projData.projectGitHub}" target="_blank"><i class="fab fa-github"></i></a></li>
-        <li id="icons"><a href="${projData.projectUrl}" target="_blank"><i class="fas fa-desktop"></i></a></li>    
+        <li id="icons"><a href="${projectData.projectGitHub}" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li id="icons"><a href="${projectData.projectUrl}" target="_blank"><i class="fas fa-desktop"></i></a></li>    
         </div>
     </div>
   </div>
@@ -38,7 +36,7 @@ const printProjects = () => {
   $('.myProjectsPage').removeClass('hide');
   $('.myContactInfo').addClass('hide');
 
-  projData.getProjectsData()
+  pd.getProjectsData()
     .then((projects) => {
       let domString = '';
       domString += '<div class="container">';
