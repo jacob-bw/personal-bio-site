@@ -2,6 +2,7 @@ import $ from 'jquery';
 
 import utilities from '../../helpers/utilities';
 import bio from '../bio/bio';
+import contact from '../contact/contact';
 
 import './myNavbar.scss';
 
@@ -26,6 +27,7 @@ const myNavbar = () => {
 
 const navButtons = () => {
   $('#navbarNav').on('click', '#bioButton', bio.printMyBio);
+  $('#navbarNav').on('click', '#contactButton', contact.contactCard);
 };
 
 export default { myNavbar, navButtons };
