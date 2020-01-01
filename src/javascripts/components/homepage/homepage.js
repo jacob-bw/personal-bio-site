@@ -12,7 +12,7 @@ const landingPageArray = [
   {
     name: 'bio',
     // eslint-disable-next-line max-len
-    description: 'I\'m a Nashville native who worked in restaurants most of my adult life. Moving into web dev has been an exciting journey that\'s allowed me to play to my natural strengths while learning new skills and ways to problem-solve.',
+    description: 'I\'m a Nashville native who worked in restaurants most of my adult life. Moving into web dev has been an exciting journey that\'s allowed me to play to my natural strengths while learning new skills and exploring creative solutions to problems.',
     imageUrl: 'https://i.imgur.com/T3KpDY1.jpg?',
   }, {
     name: 'projects',

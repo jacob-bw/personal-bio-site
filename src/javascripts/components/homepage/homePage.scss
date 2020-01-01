@@ -4,22 +4,24 @@
   flex-flow: row wrap;
   pointer-events: auto;
 
-.single-card {
+  .single-card {
   min-width: 200px;
   max-width: 400px;
   box-sizing: border-box;
   overflow: hidden;
   margin: 10px;
-}
-.homeCard-title {
+  }
+  
+  .homeCard-title {
   text-transform: uppercase;
-}
-.crop-image {
+  }
+  
+  .crop-image {
   width: 400px;
   height: 200px;
-}
+  }
 
-.homepage-image {
+  .homepage-image {
   overflow: hidden;
   width: auto;
   height: 100%;
@@ -28,6 +30,6 @@
   &:hover {
     opacity: 1;
     cursor: pointer;
+    }
   }
- }
 }

@@ -25,7 +25,7 @@ const myNavbar = () => {
 };
 
 const navButtons = () => {
-  $('.bioButton').on('click', '#bioButton', bio.printMyBio);
+  $('#navbarNav').on('click', '#bioButton', bio.printMyBio);
 };
 
 export default { myNavbar, navButtons };
