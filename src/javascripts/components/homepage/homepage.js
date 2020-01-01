@@ -3,8 +3,7 @@ import $ from 'jquery';
 import utilities from '../../helpers/utilities';
 
 import bio from '../bio/bio';
-// import contact from '../contact/contact';
-// import navbar from '../myNavbar/myNavbar';
+import projects from '../projects/projects';
 
 import './homePage.scss';
 
@@ -33,8 +32,7 @@ const imageClickEvent = (e) => {
     // print technologies
     // hide homepage + other divs
   } else if (target === 'projects') {
-    // print technologies
-    // hide homepage + other divs
+    projects.printProjects();
   }
 };
 
