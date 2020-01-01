@@ -1,6 +1,7 @@
 import $ from 'jquery';
 
 import utilities from '../../helpers/utilities';
+import hp from '../homepage/homepage';
 
 const contactCard = () => {
   $('.homePage').addClass('hide');
@@ -22,7 +23,7 @@ const contactCard = () => {
     </div>
   </div>`;
   utilities.printToDom(domString, 'contactCardZone');
+  $('#contactCard').on('click', '#closeContactButton', hp.buildHomePage);
 };
-
 
 export default { contactCard };
