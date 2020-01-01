@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 import utilities from '../../helpers/utilities';
 import bio from '../bio/bio';
 

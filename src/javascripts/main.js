@@ -7,7 +7,6 @@ import homepage from './components/homepage/homepage';
 
 const init = () => {
   homepage.buildHomePage();
-  bio.printMyBio();
   myNavbar.myNavbar();
   myNavbar.navButtons();
   bio.showMoreClickEvent();
