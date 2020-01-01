@@ -4,6 +4,7 @@ import utilities from '../../helpers/utilities';
 import bio from '../bio/bio';
 import contact from '../contact/contact';
 import hp from '../homepage/homepage';
+import projects from '../projects/projects';
 
 import './myNavbar.scss';
 
@@ -17,7 +18,7 @@ const myNavbar = () => {
     <div class="collapse navbar-collapse" id="navbarNav">
       <button class="btn btn-outline-success contactButtonClass" id="contactButton">Contact</button>
       <button class="btn btn-dark bioButton" id="bioButton">Bio</button>
-      <button class="btn btn-dark" id="">Projects</button>
+      <button class="btn btn-dark" id="projectsButton">Projects</button>
       <button class="btn btn-dark" id="">Technologies</button>
     </div>
   </nav>
@@ -28,8 +29,9 @@ const myNavbar = () => {
 
 const navButtons = () => {
   $('.navbar').on('click', '.navbar-brand', hp.buildHomePage);
-  $('#navbarNav').on('click', '#bioButton', bio.printMyBio);
   $('#navbarNav').on('click', '#contactButton', contact.contactCard);
+  $('#navbarNav').on('click', '#bioButton', bio.printMyBio);
+  $('#navbarNav').on('click', '#projectsButton', projects.printProjects);
 };
 
 export default { myNavbar, navButtons };
