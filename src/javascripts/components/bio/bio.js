@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 import utilities from '../../helpers/utilities';
 
 import personalInfo from '../../helpers/data/bioData';
@@ -20,24 +22,32 @@ const singleBioCard = (bioInfo) => {
 };
 
 const printMyBio = () => {
+  $('.homePage').addClass('hide');
+  $('.myTechPage').addClass('hide');
+  $('.myBioPage').removeClass('hide');
+  $('.myProjectsPage').addClass('hide');
+  $('.myContactInfo').addClass('hide');
+
   personalInfo.getPersonalInfo()
     .then((myBio) => {
       let domString = '';
       domString += '<div class="container">';
-      domString += '<div class="col md-4">';
       myBio.forEach((bio) => {
         domString += singleBioCard(bio);
       });
-      domString += '</div></div>';
+      domString += '</div>';
       utilities.printToDom(domString, 'bioPage');
     })
     .catch((errorFromPrintMyBio) => console.error(errorFromPrintMyBio));
 };
 
+// get click event working before merge, ya dingus
+
 const showMoreClickEvent = (e) => {
-  const target = e.target.id;
-  if (target === '#showMoreButton') {
-    $('#moreInfo').removeClass('hide');
+  const clicktarget = e.target.id;
+  if (clicktarget === '#showMoreButton') {
+    $('.moreInfo').on('click').toggleClass('hide');
   }
 };
+
 export default { printMyBio, showMoreClickEvent };

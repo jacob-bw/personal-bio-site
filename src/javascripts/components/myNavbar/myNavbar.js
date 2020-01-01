@@ -1,4 +1,8 @@
+import $ from 'jquery';
+
 import utilities from '../../helpers/utilities';
+import bio from '../bio/bio';
+import contact from '../contact/contact';
 
 import './myNavbar.scss';
 
@@ -10,15 +14,20 @@ const myNavbar = () => {
     <span class="navbar-toggler-icon"></span>
   </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-    <button class="btn btn-outline-success" id="">Contact</button>
-      <button class="btn btn-dark" id="bioButton">Bio</button>
+      <button class="btn btn-outline-success contactButtonClass" id="contactButton">Contact</button>
+      <button class="btn btn-dark bioButton" id="bioButton">Bio</button>
       <button class="btn btn-dark" id="">Projects</button>
       <button class="btn btn-dark" id="">Technologies</button>
-      </ul>
     </div>
-  </nav>`;
-
+  </nav>
+  <div id="testDiv"></div>
+  `;
   utilities.printToDom(domString, 'myNavbar');
 };
 
-export default { myNavbar };
+const navButtons = () => {
+  $('#navbarNav').on('click', '#bioButton', bio.printMyBio);
+  $('#navbarNav').on('click', '#contactButton', contact.contactCard);
+};
+
+export default { myNavbar, navButtons };
