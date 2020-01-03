@@ -1,3 +1,5 @@
+@import '../../../styles/main.scss';
+
 .project-container {
   margin: 25px 0 0 0;
   flex-flow: row wrap;
@@ -10,6 +12,8 @@
   box-sizing: border-box;
   overflow: hidden;
   margin: 10px;
+  background-color: $offwhite;
+  border-radius: 10px;
   }
   
   

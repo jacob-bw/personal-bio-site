@@ -13,7 +13,6 @@ const getProjectsData = () => new Promise((resolve, reject) => {
         projectInfo[fbId].id = fbId;
         projectArr.push(projectInfo[fbId]);
       });
-      console.log(projectArr);
       resolve(projectArr);
     })
     .catch((errorFromGetProjectsData) => reject(errorFromGetProjectsData));

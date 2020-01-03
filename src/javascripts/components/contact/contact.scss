@@ -1,0 +1,29 @@
+@import '../../../styles/main.scss';
+.contactCard {
+  max-width: 450px;
+  margin: 25px;
+  background-color: $offwhite;
+  border-radius: 10px;
+  
+  .closeContact {
+    display: flex;
+    justify-content: end;
+    margin: 10px 0 0 0;
+  }
+
+  #contactCardBody {
+    margin: 5px;
+    font-family: $exo2;
+    font-weight: bold;
+    
+    .contact-card-title {
+      font-family: $righteous;
+    }
+    
+    a {  color: black;
+    }
+    .resumeButton {
+      font-weight: bold;
+    }
+  }
+}

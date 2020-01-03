@@ -1,19 +1,26 @@
+@import '../../../styles/main.scss';
 
 #homePage {
   margin: 25px 0 0 0;
   flex-flow: row wrap;
   pointer-events: auto;
+  justify-content: space-around;
 
   .single-card {
   min-width: 200px;
   max-width: 400px;
   box-sizing: border-box;
   overflow: hidden;
+  padding: 5px;
   margin: 10px;
+  background-color: $offwhite;
+  justify-content: space-around;
   }
   
   .homeCard-title {
   text-transform: uppercase;
+  font-family: $exo2;
+  font-weight: bolder;
   }
   
   .crop-image {

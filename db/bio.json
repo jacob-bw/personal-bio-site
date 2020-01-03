@@ -1,17 +1,17 @@
 {
   "bio1": {
     "questionPrompt": "What was your background before web development?",
-    "questionAnswer": "I'm a Nashville Native who worked in restaurants for the better part of a decade. I left the hospitality industry in Fall of 2017 and have been working on Eventbrite's Customer Experience team since then.",
-    "seeMoreDetail": "Since April of 2019, I have been working with our External Developer Support team, assisting third party developers who are creating integrations using Eventbrite's API."
+    "questionAnswer": "I'm a Nashville Native who worked in restaurants for the better part of a decade. After my wife and I had our first child, we realized the hospitality industry was not conducive to the family life we wanted.",
+    "seeMoreDetail": "I left the hospitality industry in Fall of 2017 and began working on Eventbrite's Customer Experience team. Since April of 2019, I have been working with Eventbrite's External Developer Support team, assisting third party developers who are creating integrations using Eventbrite's API. Helping other developers navigate Eventbrite's API has been a great opportunity to both grow and apply what I've been learning at NSS in real-world use cases."
   },
   "bio2": {
-    "questionPrompt": "Why do you want to go into development?",
-    "questionAnswer": "Web development is an opportunity for me to use my love of puzzles and problem solving in creative real-world applications.",
-    "seeMoreDetail": "After my wife and I had our first child, we realized that the hospitality industry was not conducive to the family life we wanted. I want to be a web developer because it simultaneously provides me with intrisic opportunities for stretching and growing, as well as providing the opportunity for life that I want for me and my family."
+    "questionPrompt": "Why do you want to go into web development?",
+    "questionAnswer": "Web development has been an opportunity for me to use my love of puzzles and problem solving in creative real-life applications.",
+    "seeMoreDetail": "Coding is just lego algebra, and I love legos and algebra. I would love to transition into a career where I can build tools and solve problems for a living. Getting to exercise creativity in problem solving is my absolute favorite thing to do, and the chance to do so as a profession would be a literal dream."
   },
   "bio3": {
     "questionPrompt": "What do you love about web development?",
-    "questionAnswer": "I have loved learning to code because I enjoy all the different ways there are to correctly solve the same problem and the endless opportunities to learn new things.",
-    "seeMoreDetail": "Coding is just cyberpunk legos. I would love to transition into a career where I can build tools and solve problems for a living. Getting to exercise creativity in problem solving is my absolute shit and I *clap* want *clap* to *clap* do that shit for real *clap clap clap clap clap*"
+    "questionAnswer": "I've loved discovering all the different methods and approaches there are to correctly solve the same problem, as well as the endless opportunities to learn new things.",
+    "seeMoreDetail": " I want to be a web developer because it requires constant learning and growth, as well as providing the opportunity for a life that allows me to both provide and be present for my family."
   }
 }

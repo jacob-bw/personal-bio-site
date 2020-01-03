@@ -1,6 +1,17 @@
+@import '../../../styles/main.scss';
+
 .navbar {
-  background-color: lightgray;
+  background-color: $offwhite;
+
+  .navbar-brand{
+  font-family: $exo2;
+  font-weight: bold;
+  color: black;
+  }
+
   #navbarNav {
+    font-family: $righteous;
+    font-weight: 600px;
     justify-content: flex-end;
     .btn {
       margin: 3px;
