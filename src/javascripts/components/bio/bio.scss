@@ -1,7 +1,28 @@
-.card {
-  margin: 10px 0px 0px 0px;
-}
+@import '../../../styles/main.scss';
+.bioDome {
+  justify-content: center;
 
-.hideMore {
-  display: none;
+  .container {
+    justify-content: center;
+    
+    .bio-card {
+      margin: 10px;
+      max-width: 800px;
+      font-weight: 600;
+      background-color: $offwhite;
+      border-radius: 10px;
+      
+      .card-title {
+        font-family: $righteous;
+      }
+
+      .card-text {
+        font-family: $exo2;
+      }
+    }
+  }
 }
+  
+  .hideMore {
+    display: none;
+  }

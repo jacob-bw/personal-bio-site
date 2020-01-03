@@ -6,24 +6,15 @@ import personalInfo from '../../helpers/data/bioData';
 
 import './bio.scss';
 
-const showMore = (e) => {
-  const target = e.target.id.split('more-')[1];
-  // eslint-disable-next-line no-undef
-  if (target === `${bioInfo.id}`) {
-  // eslint-disable-next-line no-undef
-    $(`#more-${bioInfo.id}`).toggleClass('hideMore');
-  }
-};
-
 const singleBioCard = (bioInfo) => {
   let domString = '';
   domString += `
-    <div class="card">
+    <div class="card bio-card">
       <div class="card-body" id=${bioInfo.id}>
         <h4 class="card-title">${bioInfo.questionPrompt}</h4>
+        <hr/>
         <div class="card-text">${bioInfo.questionAnswer}</div>
-        <button class="btn btn-outline-primary" id="showMoreButton more-${bioInfo.id}">more details</button>
-        <div class="card-body moreInfo hideMore" id="more-${bioInfo.id}">${bioInfo.seeMoreDetail}</div>
+        <div class="card-text moreInfo" id="">${bioInfo.seeMoreDetail}</div>
       </div>
     </div>
   `;
@@ -40,14 +31,13 @@ const printMyBio = () => {
   personalInfo.getPersonalInfo()
     .then((myBio) => {
       let domString = '';
+      domString += '<div class="d-flex justify-content-center bioDome">';
       domString += '<div class="container">';
       myBio.forEach((bio) => {
         domString += singleBioCard(bio);
       });
-      domString += '</div>';
+      domString += '</div></div>';
       utilities.printToDom(domString, 'bioPage');
-      // eslint-disable-next-line no-undef
-      $('.card-body').on('click', `#more-${bioInfo.id}`, showMore);
     })
     .catch((errorFromPrintMyBio) => console.error(errorFromPrintMyBio));
 };

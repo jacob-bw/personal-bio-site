@@ -1,7 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+@import './variables';
 
 body {
-    background-color: lightslategray;
+    background-color: rgb(170, 177, 184);
     justify-content: center;
     text-align: center;
     align-content: center;
@@ -9,12 +10,14 @@ body {
 }
 
 nav {
-    background: lightgray;
+    border-radius: 10px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    text-align: center;
   }
 
 .footer{

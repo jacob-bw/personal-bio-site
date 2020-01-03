@@ -37,7 +37,8 @@ const imageClickEvent = (e) => {
 };
 
 const homeCards = (arr) => {
-  let domString = '<div class="card-group d-flex homeCards">';
+  let domString = '';
+  domString += '<div class="card-deck homeCards d-flex justify-content-center">';
   arr.forEach((card) => {
     domString += '<div class="card single-card">';
     domString += `<div class="crop-image"><img src=${card.imageUrl} class="homepage-image" alt="${card.name}" id="hp-${card.name}"></div>`;

@@ -10,7 +10,7 @@ const projectCard = (projectData) => {
   domString += `
   <div class="project-card col-md">
     <div class="card-body">
-    <div class="crop-image"><img src=${projectData.projectImgUrl} class="card-img-top"></div>
+    <div class="crop-image"><a href="${projectData.projectUrl}" target="_blank"><img src=${projectData.projectImgUrl} class="card-img-top"></a></div>
       <h4 class="card-title" id="${projectData.id}">${projectData.projectName}</h4>
       <h6 id="">${projectData.projectSummary}</h6>
       <div class="project-footer d-flex justify-content-around">
