@@ -1,22 +1,22 @@
 {
   "tech1": {
     "techName": "HTML",
-    "techThumbnail": "",
+    "techThumbnail": "<i class='fab fa-html5'></i>",
     "techLink":""
   },
   "tech2": {
-    "techName": "CSS/SCSS",
-    "techThumbnail": "",
+    "techName": "CSS",
+    "techThumbnail": "<i class='fab fa-css3'></i>",
     "techLink":""
   },
   "tech3": {
     "techName": "Javascript",
-    "techThumbnail": "",
+    "techThumbnail": "<i class='fab fa-js-square'></i>",
     "techLink":""
   },
   "tech4": {
     "techName": "Bootstrap",
-    "techThumbnail": "",
+    "techThumbnail": "<i class='fab fa-bootstrap'></i>",
     "techLink":""
   },
   "tech5": {
@@ -31,7 +31,7 @@
   },
   "tech7": {
     "techName": "React",
-    "techThumbnail": "",
+    "techThumbnail": "<i class='fab fa-react'></i>",
     "techLink":""
     },
   "tech8": {
@@ -41,12 +41,17 @@
   },
   "tech9": {
     "techName": "REST API",
-    "techThumbnail": "",
+    "techThumbnail": "<i class='far fa-file-code'></i>",
     "techLink":""
   },
   "tech10": {
     "techName": "axios",
     "techThumbnail": "",
+    "techLink":""
+  },
+  "tech11": {
+    "techName": "SCSS",
+    "techThumbnail": "<i class='fab fa-sass'></i>",
     "techLink":""
   }
 }

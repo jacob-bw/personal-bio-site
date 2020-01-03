@@ -5,6 +5,7 @@ import bio from '../bio/bio';
 import contact from '../contact/contact';
 import hp from '../homepage/homepage';
 import projects from '../projects/projects';
+import tech from '../tech/tech';
 
 import './myNavbar.scss';
 
@@ -19,10 +20,9 @@ const myNavbar = () => {
       <button class="btn btn-outline-success contactButtonClass" id="contactButton">Contact</button>
       <button class="btn btn-dark bioButton" id="bioButton">Bio</button>
       <button class="btn btn-dark" id="projectsButton">Projects</button>
-      <button class="btn btn-dark" id="">Technologies</button>
+      <button class="btn btn-dark" id="techButton">Technologies</button>
     </div>
   </nav>
-  <div id="testDiv"></div>
   `;
   utilities.printToDom(domString, 'myNavbar');
 };
@@ -32,6 +32,7 @@ const navButtons = () => {
   $('#navbarNav').on('click', '#contactButton', contact.contactCard);
   $('#navbarNav').on('click', '#bioButton', bio.printMyBio);
   $('#navbarNav').on('click', '#projectsButton', projects.printProjects);
+  $('#navbarNav').on('click', '#techButton', tech.printTechnologies);
 };
 
 export default { myNavbar, navButtons };
