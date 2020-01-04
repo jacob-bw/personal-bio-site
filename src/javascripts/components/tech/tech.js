@@ -10,12 +10,13 @@ const singleTechCard = (techData) => {
   let domString = '';
   // don't forget to swing back and see if you can get the alt src set as techData.techName
   domString += `
-  <div class="card tech-card">
+  <div class="card tech-card" id="${techData.id}">
   <div class="card-body tech-card-body">
   <div id="techCardZone">${techData.techThumbnail}</div>
   </div>
   </div>
   `;
+  console.log(techData.techThumbnail);
   return domString;
 };
 
@@ -36,7 +37,6 @@ const printTechnologies = () => {
       });
       domString += '</div></div>';
       utilities.printToDom(domString, 'technologiesPage');
-      console.log(domString);
     })
     .catch((errorFromPrintTechnologies) => console.error(errorFromPrintTechnologies));
 };
