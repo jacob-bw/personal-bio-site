@@ -1,52 +1,52 @@
 {
   "tech1": {
     "techName": "HTML",
-    "techThumbnail": "",
-    "techLink":""
+    "techThumbnail": "https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg",
+    "techLink":"https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
   },
   "tech2": {
-    "techName": "CSS/SCSS",
-    "techThumbnail": "",
-    "techLink":""
+    "techName": "CSS",
+    "techThumbnail": "https://cdn1.iconfinder.com/data/icons/logotypes/32/badge-css-3-512.png",
+    "techLink":"https://developer.mozilla.org/en-US/docs/Glossary/CSS"
   },
   "tech3": {
     "techName": "Javascript",
-    "techThumbnail": "",
-    "techLink":""
+    "techThumbnail": "https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg",
+    "techLink":"https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   "tech4": {
     "techName": "Bootstrap",
-    "techThumbnail": "",
-    "techLink":""
+    "techThumbnail": "https://www.vectorlogo.zone/logos/getbootstrap/getbootstrap-icon.svg",
+    "techLink":"https://getbootstrap.com/docs/4.3/getting-started/introduction/"
   },
   "tech5": {
-    "techName": "Flexbox",
-    "techThumbnail": "",
-    "techLink":""
+    "techName": "Visual Studio Code",
+    "techThumbnail": "https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg",
+    "techLink":"https://code.visualstudio.com/docs"
   },
   "tech6": {
     "techName": "Jquery",
-    "techThumbnail": "",
-    "techLink":""
+    "techThumbnail": "https://www.vectorlogo.zone/logos/jquery/jquery-vertical.svg",
+    "techLink":"https://developer.mozilla.org/en-US/docs/Glossary/jQuery"
   },
   "tech7": {
     "techName": "React",
-    "techThumbnail": "",
-    "techLink":""
+    "techThumbnail": "https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg",
+    "techLink":"https://reactjs.org/docs/getting-started.html"
     },
   "tech8": {
     "techName": "firebase",
-    "techThumbnail": "",
-    "techLink":""
+    "techThumbnail": "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+    "techLink":"https://firebase.google.com/docs"
   },
   "tech9": {
-    "techName": "REST API",
-    "techThumbnail": "",
-    "techLink":""
+    "techName": "axios",
+    "techThumbnail": "https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png",
+    "techLink":"https://github.com/axios/axios"
   },
   "tech10": {
-    "techName": "axios",
-    "techThumbnail": "",
-    "techLink":""
+    "techName": "SCSS",
+    "techThumbnail": "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
+    "techLink":"https://sass-lang.com/documentation"
   }
 }

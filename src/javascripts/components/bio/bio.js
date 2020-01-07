@@ -31,8 +31,8 @@ const printMyBio = () => {
   personalInfo.getPersonalInfo()
     .then((myBio) => {
       let domString = '';
-      domString += '<div class="d-flex justify-content-center bioDome">';
-      domString += '<div class="container">';
+      domString += '<div class="container justify-items-center bioDome">';
+      domString += '<div class="row justify-content-center">';
       myBio.forEach((bio) => {
         domString += singleBioCard(bio);
       });

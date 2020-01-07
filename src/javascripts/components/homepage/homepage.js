@@ -4,6 +4,7 @@ import utilities from '../../helpers/utilities';
 
 import bio from '../bio/bio';
 import projects from '../projects/projects';
+import tech from '../tech/tech';
 
 import './homePage.scss';
 
@@ -29,8 +30,7 @@ const imageClickEvent = (e) => {
   if (target === 'bio') {
     bio.printMyBio();
   } else if (target === 'technologies') {
-    // print technologies
-    // hide homepage + other divs
+    tech.printTechnologies();
   } else if (target === 'projects') {
     projects.printProjects();
   }
