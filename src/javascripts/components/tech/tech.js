@@ -11,9 +11,7 @@ const singleTechCard = (techData) => {
   // don't forget to swing back and see if you can get the alt src set as techData.techName
   domString += `
   <div class="card tech-card" id="${techData.id}">
-  <div class="card-body tech-card-body">
-  <div id="techCardZone">${techData.techThumbnail}</div>
-  </div>
+  <img class="card-img-top" id="techCardZone" src="${techData.techThumbnail}"></img>
   </div>
   `;
   console.log(techData.techThumbnail);
