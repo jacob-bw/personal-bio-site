@@ -40,16 +40,11 @@
     "techLink":"https://firebase.google.com/docs"
   },
   "tech9": {
-    "techName": "REST API",
-    "techThumbnail": "https://cdn0.iconfinder.com/data/icons/technology-business-and-industry/1000/file_light-59-512.png",
-    "techLink":"https://developer.mozilla.org/en-US/docs/Glossary/REST"
-  },
-  "tech10": {
     "techName": "axios",
     "techThumbnail": "https://user-images.githubusercontent.com/8939680/57233882-20344080-6fe5-11e9-9086-d20a955bed59.png",
     "techLink":"https://github.com/axios/axios"
   },
-  "tech11": {
+  "tech10": {
     "techName": "SCSS",
     "techThumbnail": "https://www.vectorlogo.zone/logos/sass-lang/sass-lang-icon.svg",
     "techLink":"https://sass-lang.com/documentation"

@@ -29,7 +29,7 @@ const printTechnologies = () => {
     .then((techs) => {
       let domString = '';
       domString += '<div class="tech-container">';
-      domString += '<div class="row">';
+      domString += '<div class="row justify-content-center">';
       techs.forEach((techInfo) => {
         domString += singleTechCard(techInfo);
       });

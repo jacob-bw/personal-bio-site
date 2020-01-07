@@ -1,10 +1,8 @@
-@import '../../../styles/main.scss';
-.bioDome {
-  justify-content: center;
+@import '../../../styles/variables';
 
-  .container {
-    justify-content: center;
-    
+.bioDome {
+
+
     .bio-card {
       margin: 10px;
       max-width: 800px;
@@ -20,7 +18,6 @@
         font-family: $exo2;
       }
     }
-  }
 }
   
   .hideMore {
