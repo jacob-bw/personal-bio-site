@@ -16,8 +16,15 @@
   "project3": {
     "projectName": "Digital Pet",
     "projectSummary": "A single page app that lets you interact with and care for an imaginary creature",
-    "projectUrl": "",
+    "projectUrl": "https://digital-pet-jbw.firebaseapp.com/",
     "projectGitHub": "https://github.com/jacob-bw/Tamagotchi",
     "projectImgUrl": "https://raw.githubusercontent.com/jacob-bw/Tamagotchi/master/src/images/screenshots/tamagotchi-screenshot.png"
+  },
+  "project4": {
+    "projectName": "Temperature Converter",
+    "projectSummary": "A single page app for converting Farenheit to Celcius and vice versa",
+    "projectUrl": "https://temp-converter-jbw.firebaseapp.com/",
+    "projectGitHub": "https://github.com/jacob-bw/temp-tracker",
+    "projectImgUrl": "https://raw.githubusercontent.com/jacob-bw/temp-tracker/master/screenshots/temp-converter-1-v2.png"
   }
 }

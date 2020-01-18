@@ -12,10 +12,7 @@ import './myNavbar.scss';
 const myNavbar = () => {
   const domString = `
   <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">Jacob Best-Wittenberg</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <a class="navbar-brand" href="#"><img class="logoImg" src="https://i.imgur.com/8tr200J.png"></img>Jacob Best-Wittenberg</a>
     <div class="collapse navbar-collapse" id="navbarNav">
       <button class="btn btn-outline-success contactButtonClass" id="contactButton">Contact</button>
       <button class="btn btn-dark bioButton" id="bioButton">Bio</button>

@@ -2,11 +2,26 @@
 
 .navbar {
   background-color: $offwhite;
+  height: 65px;
+  align-content: center;
+  display: flex;
+
+  .logoImg {
+    width: auto;
+    height: 60px;
+    overflow: hidden;
+    margin-right: 5px;
+
+  }
 
   .navbar-brand{
   font-family: $exo2;
   font-weight: bold;
   color: black;
+  width: 20vw;
+    #text {
+      width: inherit;
+    }
   }
 
   #navbarNav {
