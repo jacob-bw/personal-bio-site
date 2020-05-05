@@ -26,5 +26,12 @@
     "projectUrl": "https://temp-converter-jbw.firebaseapp.com/",
     "projectGitHub": "https://github.com/jacob-bw/temp-tracker",
     "projectImgUrl": "https://raw.githubusercontent.com/jacob-bw/temp-tracker/master/screenshots/temp-converter-1-v2.png"
+  },
+  "project5": {
+    "projectName": "Belly Up",
+    "projectSummary": "A single page CRUD app that generates a random word to be tattooed around your navel",
+    "projectUrl": "https://jbw-capstone.firebaseapp.com/",
+    "projectGitHub": "https://github.com/jacob-bw/capstone-belly-up/",
+    "projectImgUrl": "https://i.imgur.com/VGSW9oX.png"
   }
 }
