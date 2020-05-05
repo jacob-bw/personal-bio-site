@@ -22,7 +22,7 @@ const contactCard = () => {
       <h5 class="card-title"><a href="https://www.linkedin.com/in/jacob-best-wittenberg/ "target="_blank"><i class="far fa-comment-alt"></i> connect with me on linkedin</a></h5>
       <h5 class="card-title"><a href="mailto:wittenberg.jacob@gmail.com" "target="_blank"><i class="fas fa-at"></i> email me</a></h5>
       <h5 class="card-title"><a href="https://github.com/jacob-bw" "target="_blank"><i class="fas fa-code-branch"></i> check out my code on github</a></h5>
-      <h5 class="card-title"><a href="https://drive.google.com/file/d/0B3Unyl1m2PyIMmV2ZXlWZEtUWVd5TnFqN3d4bWxyOGRGNVc0/view" "target="_blank"><i class="far fa-file"></i> view my resume</a></h5>
+      <h5 class="card-title"><a href="https://drive.google.com/file/d/1L8xLsnzDGASRoNBEZr2vhPFr3Gy0HETO/view?usp=sharing" "target="_blank"><i class="far fa-file"></i> view my resume</a></h5>
       <hr/>
       <div class="closeContact"><button class="btn btn-dark" id="closeContactButton">x</button></div>
       </div>
